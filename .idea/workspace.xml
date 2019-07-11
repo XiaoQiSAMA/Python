@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44a122cc-e54c-4ac8-9753-f2984367e752" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Data_Structures&amp;Algorithms/scaleplate.PY" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data_Structures&amp;Algorithms/binary_search.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,17 +34,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Data_Structures&amp;Algorithms/Progress.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="85" column="24" lean-forward="true" selection-start-line="85" selection-start-column="24" selection-end-line="85" selection-end-column="24" />
+            <state relative-caret-position="1700">
+              <caret line="85" column="24" selection-start-line="85" selection-start-column="24" selection-end-line="85" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Data_Structures&amp;Algorithms/scaleplate.PY">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="460">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Data_Structures&amp;Algorithms/scaleplate.PY">
+        <entry file="file://$PROJECT_DIR$/Data_Structures&amp;Algorithms/binary_search.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+            <state relative-caret-position="360">
+              <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -63,14 +72,15 @@
         <option value="$PROJECT_DIR$/Data_Structures&amp;Algorithms/Range.py" />
         <option value="$PROJECT_DIR$/Data_Structures&amp;Algorithms/Progress.py" />
         <option value="$PROJECT_DIR$/Data_Structures&amp;Algorithms/scaleplate.PY" />
+        <option value="$PROJECT_DIR$/Data_Structures&amp;Algorithms/binary_search.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="312" />
-    <option name="y" value="-23" />
-    <option name="width" value="1401" />
-    <option name="height" value="985" />
+    <option name="x" value="311" />
+    <option name="y" value="-24" />
+    <option name="width" value="1402" />
+    <option name="height" value="986" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -113,7 +123,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.scaleplate.PY">
+  <component name="RunManager" selected="Python.binary_search">
     <configuration name="Main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -177,6 +187,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="binary_search" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Data_Structures&amp;Algorithms" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data_Structures&amp;Algorithms/binary_search.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="scaleplate.PY" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -200,6 +231,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.binary_search" />
         <item itemvalue="Python.scaleplate.PY" />
         <item itemvalue="Python.Progress" />
         <item itemvalue="Python.Vector" />
@@ -225,7 +257,14 @@
       <option name="project" value="LOCAL" />
       <updated>1562743316134</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="递归实现英式标尺">
+      <created>1562820148640</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1562820148641</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -243,7 +282,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32918397" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32872927" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32928678" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32928678" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -253,7 +292,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="数列类和Range类" />
-    <option name="LAST_COMMIT_MESSAGE" value="数列类和Range类" />
+    <MESSAGE value="递归实现英式标尺" />
+    <option name="LAST_COMMIT_MESSAGE" value="递归实现英式标尺" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/design mode/pipeg/gravitate2/Main.py" />
@@ -287,15 +327,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Data_Structures&amp;Algorithms/Progress.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="85" column="24" lean-forward="true" selection-start-line="85" selection-start-column="24" selection-end-line="85" selection-end-column="24" />
+        <state relative-caret-position="1700">
+          <caret line="85" column="24" selection-start-line="85" selection-start-column="24" selection-end-line="85" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Data_Structures&amp;Algorithms/scaleplate.PY">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+        <state relative-caret-position="460">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data_Structures&amp;Algorithms/binary_search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
         </state>
       </provider>
     </entry>
