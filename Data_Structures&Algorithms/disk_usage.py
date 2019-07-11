@@ -14,5 +14,5 @@ def disk_usage(path):
     print('{0:<7}'.format(total), path)
     return total
 
-path = os.path.abspath('D:\python')
+path = os.path.abspath('D:\python')         #输入path路径
 disk_usage(path)
