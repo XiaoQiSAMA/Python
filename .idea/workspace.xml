@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="44a122cc-e54c-4ac8-9753-f2984367e752" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_Structures&amp;Algorithms/binary_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Structures&amp;Algorithms/binary_search.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Structures&amp;Algorithms/recursion_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Structures&amp;Algorithms/recursion_example.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,11 +54,11 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Data_Structures&amp;Algorithms/binary_search.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+            <state relative-caret-position="320">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -81,11 +81,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Data_Structures&amp;Algorithms/recursion_example.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+            <state relative-caret-position="520">
+              <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -106,8 +106,8 @@
         <option value="$PROJECT_DIR$/Data_Structures&amp;Algorithms/scaleplate.PY" />
         <option value="$PROJECT_DIR$/Data_Structures&amp;Algorithms/fibonacci.py" />
         <option value="$PROJECT_DIR$/Data_Structures&amp;Algorithms/disk_usage.py" />
-        <option value="$PROJECT_DIR$/Data_Structures&amp;Algorithms/recursion_example.py" />
         <option value="$PROJECT_DIR$/Data_Structures&amp;Algorithms/binary_search.py" />
+        <option value="$PROJECT_DIR$/Data_Structures&amp;Algorithms/recursion_example.py" />
       </list>
     </option>
   </component>
@@ -334,7 +334,14 @@
       <option name="project" value="LOCAL" />
       <updated>1562918633050</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="非递归实现二分查找">
+      <created>1562918984396</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1562918984396</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -368,7 +375,8 @@
     <MESSAGE value="递归计算第n个斐波那契数的算法比较" />
     <MESSAGE value="修改" />
     <MESSAGE value="一些递归实例" />
-    <option name="LAST_COMMIT_MESSAGE" value="一些递归实例" />
+    <MESSAGE value="非递归实现二分查找" />
+    <option name="LAST_COMMIT_MESSAGE" value="非递归实现二分查找" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/design mode/pipeg/gravitate2/Main.py" />
@@ -424,17 +432,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data_Structures&amp;Algorithms/recursion_example.py">
+    <entry file="file://$PROJECT_DIR$/Data_Structures&amp;Algorithms/binary_search.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        <state relative-caret-position="320">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data_Structures&amp;Algorithms/binary_search.py">
+    <entry file="file://$PROJECT_DIR$/Data_Structures&amp;Algorithms/recursion_example.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+        <state relative-caret-position="520">
+          <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
         </state>
       </provider>
     </entry>

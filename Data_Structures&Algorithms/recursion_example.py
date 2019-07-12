@@ -12,12 +12,19 @@ def line_sum(S, n):
 
 '''递归逆置序列'''
 
+#递归实现
 def reverse(S, start, stop):
     #时间复杂度O(n)
     if start < stop - 1:
         S[start], S[stop - 1] = S[stop - 1], S[start]
         reverse(S, start + 1, stop - 1)
 
+#非递归实现
+def reverse_interative(S):
+    start, stop = 0, len(S)
+    if start < stop - 1:
+        S[start], S[stop - 1] = S[stop - 1], S[start]
+        start, stop = start + 1, stop - 1
 
 
 '''递归计算n次幂'''
