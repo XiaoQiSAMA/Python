@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44a122cc-e54c-4ac8-9753-f2984367e752" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Data_Structures&amp;Algorithms/DynamicArray.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_Structures&amp;Algorithms/recursion_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Structures&amp;Algorithms/recursion_example.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -81,11 +81,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Data_Structures&amp;Algorithms/recursion_example.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
+            <state relative-caret-position="240">
+              <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Data_Structures&amp;Algorithms/DynamicArray.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="633">
+              <caret line="37" column="38" selection-start-line="37" selection-start-column="38" selection-end-line="37" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -108,6 +117,7 @@
         <option value="$PROJECT_DIR$/Data_Structures&amp;Algorithms/disk_usage.py" />
         <option value="$PROJECT_DIR$/Data_Structures&amp;Algorithms/binary_search.py" />
         <option value="$PROJECT_DIR$/Data_Structures&amp;Algorithms/recursion_example.py" />
+        <option value="$PROJECT_DIR$/Data_Structures&amp;Algorithms/DynamicArray.py" />
       </list>
     </option>
   </component>
@@ -341,7 +351,14 @@
       <option name="project" value="LOCAL" />
       <updated>1562918984396</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="非递归逆置序列">
+      <created>1562919136183</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1562919136183</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -376,7 +393,8 @@
     <MESSAGE value="修改" />
     <MESSAGE value="一些递归实例" />
     <MESSAGE value="非递归实现二分查找" />
-    <option name="LAST_COMMIT_MESSAGE" value="非递归实现二分查找" />
+    <MESSAGE value="非递归逆置序列" />
+    <option name="LAST_COMMIT_MESSAGE" value="非递归逆置序列" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/design mode/pipeg/gravitate2/Main.py" />
@@ -441,8 +459,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Data_Structures&amp;Algorithms/recursion_example.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
+        <state relative-caret-position="240">
+          <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data_Structures&amp;Algorithms/DynamicArray.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="633">
+          <caret line="37" column="38" selection-start-line="37" selection-start-column="38" selection-end-line="37" selection-end-column="38" />
         </state>
       </provider>
     </entry>
