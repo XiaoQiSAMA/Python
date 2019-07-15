@@ -36,3 +36,41 @@ class DynamicArray:
     def _make_array(self, c):
 
         return (c * ctypes.py_object)()
+
+
+    #insert方法实现
+    def insert(self, k, value):
+
+        if self._n == self._capacity:
+            self._resize(2 * self._capacity)
+
+        for j in range(self._n, k, -1):             #元素的值都往后移一位
+            self._A[j] = self._A[j - 1]
+        self._A[k] = value
+        self._n += 1
+
+    #remove方法实现
+    def remove(self, value):
+        for k in range(self._n):
+            if self._A[k] == value:
+                for j in range(k, self._n, -1):     #元素往左移一位
+                    self._A[j] = self._A[j + 1]
+                self._A[self._n - 1] = None
+                self._n -= 1
+                return
+        raise ValueError('value not found')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
