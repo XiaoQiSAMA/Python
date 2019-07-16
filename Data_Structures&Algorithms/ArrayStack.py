@@ -29,3 +29,46 @@ class ArrayStack:
             raise Empty('Stack is empty')
         return self._data.pop()
 
+'''自定义栈实现数据的逆置'''
+
+def reverse_file(filename):
+
+    S = ArrayStack()
+    with open(filename, 'w') as f:                 #入栈
+        for line in f:
+            S.push(line.rstrip('\n'))
+
+    with open(filename, 'w') as f:                 #出栈
+        while not S.is_empty():
+            f.write(S.pop() + '\n')
+
+'''自定义栈实现分隔符匹配算法'''
+def is_matched(expr):
+
+    lefty = '([{'
+    righty = ')]}'
+    S = ArrayStack()
+    for c in expr:
+        if c in lefty:
+            S.push(c)
+        elif c in righty:
+            if S.is_empty():
+                return False
+            if righty.index(c) != lefty.index(S.pop()):
+                return False
+    return S.is_empty()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
