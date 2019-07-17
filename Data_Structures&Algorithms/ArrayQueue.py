@@ -36,7 +36,7 @@ class ArrayQueue:
         self._size -= 1
         return answer
 
-    def enqueue(self, e):
+    def enqueue(self, e):                   #入队列
         if self._size == len(self._data):
             self._resize(2 * len(self._data))
 
