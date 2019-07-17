@@ -40,7 +40,7 @@ class ArrayQueue:
         if self._size == len(self._data):
             self._resize(2 * len(self._data))
 
-        avail = (self._front + self._size) % len(self._data)
+        avail = (self._front + self._size) % len(self._data)                #计算入队列的值的索引位置
         self._data[avail] = e
         self._size -= 1
 
