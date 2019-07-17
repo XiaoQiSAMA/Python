@@ -44,7 +44,7 @@ class ArrayQueue:
         self._data[avail] = e
         self._size -= 1
 
-    def _resize(self, cap):
+    def _resize(self, cap):                 #重新创建一个数组，并将原数组的索引按入队顺序排序在新数组中
         old = self._data
         self._data = [None] * cap
         walk = self._front
