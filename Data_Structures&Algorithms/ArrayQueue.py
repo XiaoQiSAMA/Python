@@ -33,7 +33,9 @@ class ArrayQueue:
         answer = self._data[self._front]
         self._data[self._front] = None
         self._front = (self._front + 1) % len(self._data)
-        self._size -= 1
+        # self._size -= 1                               #不缩减底层数组大小
+        if 0 < self._size < len(self._data) // 4:       #如果元素个数小于数组长度的1/4，将数组缩减为1/2
+            self._resize(len(self._data) // 2)
         return answer
 
     def enqueue(self, e):                   #入队列
@@ -44,7 +46,7 @@ class ArrayQueue:
         self._data[avail] = e
         self._size -= 1
 
-    def _resize(self, cap):                 #重新创建一个数组，并将原数组的索引按入队顺序排序在新数组中
+    def _resize(self, cap):                 #重新创建一个数组，并将原数组的索引按入队顺序排序在新数组中+
         old = self._data
         self._data = [None] * cap
         walk = self._front
